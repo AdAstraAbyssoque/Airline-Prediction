@@ -2,7 +2,11 @@
 
 - `XGBoost2Res.ipynb` demonstrates the training process.
 - `optuna-xgb.py` demonstrates the hyperparameter tuning process, and `optuna-xgb.db` stores related information.
-- `***.csv` is the final result.
+- `***.csv` is the final result. F1(macro) score reached 0.52 on a K5-fold test. Accuracy reached 0.81, which is significantly high on this superficial data.
+
+## Cons
+
+- Didn't use feature selection. Only 15 features have been used.
 
 ## Disclaimer
 
