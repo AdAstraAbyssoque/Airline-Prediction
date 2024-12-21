@@ -2,7 +2,7 @@
 
 - `XGBoost2Res.ipynb` demonstrates the training process.
 - `optuna-xgb.py` demonstrates the hyperparameter tuning process, and `optuna-xgb.db` stores related information.
-- `***.csv` is the final result. F1(macro) score reached 0.52 on a K5-fold test. Accuracy reached 0.81, which is significantly high on this superficial data.
+- `***.csv` is the final result. F1(macro) score reached 0.52 on a K5-fold test. Accuracy reached 0.81, which is significantly high on this superficial data. For comparison, the normal Random Forest reached 0.31-0.36 F1(macro) respectively.
 
 ## Cons
 
